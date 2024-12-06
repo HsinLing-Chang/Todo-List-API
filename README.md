@@ -13,21 +13,6 @@ This project is a Todo-list API built with flask, using PostgreSQL as database. 
 - Users can filter tasks by their status (e.g., todo, in-progress, or done).
 - User can specify a page to retrive tasks.
 
-## Installation
-
-To get started with this project, clone the repository to your local machine:
-
-```shell
-# Clone the repository
-git clone https://github.com/HsinLing-Chang/Todo-List-API.git
-
-# Navigate into the cloned project directory
-cd Todo-List-API
-
-# Run the Python script
-python app.py
-```
-
 ## API Endpoints
 
 ### User Route
@@ -45,14 +30,29 @@ python app.py
 
 ### Pagination
 
-    By Using pagination, users can select a specific page and limit the number of tasks displayed per page.
+By Using pagination, users can select a specific page and limit the number of tasks displayed per page.
 
     ```shell
     # Retrieve tasks from page 1, with 10 task per page.
     http://task/myTask?page=1&limit=10
     ```
 
-## Setting Up environment variables
+## Installation
+
+To get started with this project, clone the repository to your local machine:
+
+```shell
+# Clone the repository
+git clone https://github.com/HsinLing-Chang/Todo-List-API.git
+
+# Navigate into the cloned project directory
+cd Todo-List-API
+
+# Run the Python script
+python app.py
+```
+
+## Setting Up Environment Variables
 
 1. Create a `.env`file in the root directory of the project if it doesn’t exist.
 2. Add the `Secret` and `DATABASE_URL` Configuration to the `.env` file as follow.
@@ -78,7 +78,7 @@ python app.py
 }
 ```
 
-1. **Task**
+2. **Task**
 
 ```json
 {
