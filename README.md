@@ -72,7 +72,7 @@ python app.py
 ```json
 {
   "id": 1,
-  "username": "User name",
+  "username": "Username",
   "email": "example@gmail.com",
   "password": "password"
 }
@@ -83,7 +83,7 @@ python app.py
 ```json
 {
     "id":1,
-    "user_email": "user_email"
+    "user_email": "example@gmail.com"
     "description": "Take my dog for a walk.",
     "status": "todo",
     "createAt":"Wed, 27 Nov 2024 19:49:19 GMT",
