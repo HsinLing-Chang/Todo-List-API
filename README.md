@@ -34,7 +34,7 @@ By Using pagination, users can select a specific page and limit the number of ta
 
 ```shell
 # Retrieve tasks from page 1, with 10 task per page.
-http://task/myTask?page=1&limit=10
+http://localhost:8080/task/myTask?page=1&limit=10
 ```
 
 ## Installation
