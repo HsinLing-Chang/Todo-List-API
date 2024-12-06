@@ -32,10 +32,10 @@ This project is a Todo-list API built with flask, using PostgreSQL as database. 
 
 By Using pagination, users can select a specific page and limit the number of tasks displayed per page.
 
-    ```shell
-    # Retrieve tasks from page 1, with 10 task per page.
-    http://task/myTask?page=1&limit=10
-    ```
+```shell
+# Retrieve tasks from page 1, with 10 task per page.
+http://task/myTask?page=1&limit=10
+```
 
 ## Installation
 
